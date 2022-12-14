@@ -1,0 +1,13 @@
+{
+  "name": "athul_test_node_app",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/athulrajneoito/athul_test_node_app",
+    "ssh": "git@github.com:athulrajneoito/athul_test_node_app.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
